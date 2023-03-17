@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:icr_church/pages/first_load/first_load_page.dart';
+import 'package:icr_church/pages/first_load/welcome_screen_page.dart';
 import 'package:icr_church/pages/home/home_page.dart';
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const HomePage(),
+      home: const WelcomeScreenPage(),
     );
   }
 }

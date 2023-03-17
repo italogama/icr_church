@@ -47,5 +47,7 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocalNotificationUsageDescription</key>
+	<string>We use notifications to keep you informed about important events in the app.</string>
 </dict>
 </plist>
